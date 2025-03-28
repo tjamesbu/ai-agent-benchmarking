@@ -33,11 +33,11 @@ This project benchmarks the inference performance and response quality of AI age
         ├── metrics_visualizer.py 
         ├── utils.py 
         ├── data/ 
-            │ └── questions/ 
-                │ └── questions.jsonl 
+        │ └── questions/ 
+        |     └── questions.jsonl 
         └── output/ 
-            └── metrics/ 
-                └── energy_benchmark_results.jsonl
+        |    └── metrics/ 
+        |        └── energy_benchmark_results.jsonl
 
 
 ## 🚀 How to Run
