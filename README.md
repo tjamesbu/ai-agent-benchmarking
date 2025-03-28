@@ -61,6 +61,10 @@ ai-agent-benchmarking/
    python run_benchmark.py
 
 
+
+
+
+
 📊 Metrics Collected
 Runtime: Total time per iteration
 
@@ -76,6 +80,10 @@ Simulated Rating: Human-like scoring from 1–5
 
 Prediction Error: MAE, MAPE, RMSE (if applicable)
 
+
+
+
+
 📈 Visualization
 Visual reports are generated automatically using Plotly, including:
 
@@ -85,8 +93,16 @@ Memory consumption
 
 Simulated language output ratings
 
+
+
+
+
 📄 License
 MIT License. Feel free to use, fork, or contribute!
+
+
+
+
 
 
 🙌 Credits
