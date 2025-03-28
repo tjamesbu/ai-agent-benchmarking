@@ -40,25 +40,25 @@ ai-agent-benchmarking/
             └── energy_benchmark_results.jsonl
 
 
-    ## 🚀 How to Run
+## 🚀 How to Run
 
-1. Clone this repo:
-       ```bash
-       git clone https://github.com/your-username/ai-agent-benchmarking.git
-       cd ai-agent-benchmarking
+    1. Clone this repo:
+           ```bash
+           git clone https://github.com/your-username/ai-agent-benchmarking.git
+           cd ai-agent-benchmarking
 
-2. Create and activate a virtual environment:
-       python3 -m venv .venv
-       source .venv/bin/activate  # or `.venv\\Scripts\\activate` on Windows
+    2. Create and activate a virtual environment:
+           python3 -m venv .venv
+           source .venv/bin/activate  # or `.venv\\Scripts\\activate` on Windows
 
-3. Install dependencies:
-       pip install -r requirements.txt
+    3. Install dependencies:
+           pip install -r requirements.txt
 
-4. Set your LLM API key in a .env file:
-       GROQ_API_KEY=your_groq_api_key_here
+    4. Set your LLM API key in a .env file:
+           GROQ_API_KEY=your_groq_api_key_here
 
-5. Run the benchmark:
-       python run_benchmark.py
+    5. Run the benchmark:
+           python run_benchmark.py
 
 
 
@@ -66,6 +66,7 @@ ai-agent-benchmarking/
 
 
 📊 Metrics Collected
+
     Runtime: Total time per iteration
 
     Memory: Delta and peak usage (in MB)
@@ -85,6 +86,7 @@ ai-agent-benchmarking/
 
 
 📈 Visualization
+
     Visual reports are generated automatically using Plotly, including:
 
     Latency over time
@@ -98,6 +100,7 @@ ai-agent-benchmarking/
 
 
 📄 License
+
     MIT License. Feel free to use, fork, or contribute!
 
 
@@ -106,6 +109,7 @@ ai-agent-benchmarking/
 
 
 🙌 Credits
+
     Built by Thomas J James, leveraging:
 
     CrewAI
