@@ -66,39 +66,39 @@ ai-agent-benchmarking/
 
 
 📊 Metrics Collected
-Runtime: Total time per iteration
+    Runtime: Total time per iteration
 
-Memory: Delta and peak usage (in MB)
+    Memory: Delta and peak usage (in MB)
 
-Token usage: Prompt tokens, total tokens, tokens per call
+    Token usage: Prompt tokens, total tokens, tokens per call
 
-Latency: Per-question and average LLM latency
+    Latency: Per-question and average LLM latency
 
-LLM Calls: Total number of calls per agent
+    LLM Calls: Total number of calls per agent
 
-Simulated Rating: Human-like scoring from 1–5
+    Simulated Rating: Human-like scoring from 1–5
 
-Prediction Error: MAE, MAPE, RMSE (if applicable)
+    Prediction Error: MAE, MAPE, RMSE (if applicable)
 
 
 
 
 
 📈 Visualization
-Visual reports are generated automatically using Plotly, including:
+    Visual reports are generated automatically using Plotly, including:
 
-Latency over time
+    Latency over time
 
-Memory consumption
+    Memory consumption
 
-Simulated language output ratings
+    Simulated language output ratings
 
 
 
 
 
 📄 License
-MIT License. Feel free to use, fork, or contribute!
+    MIT License. Feel free to use, fork, or contribute!
 
 
 
@@ -106,10 +106,10 @@ MIT License. Feel free to use, fork, or contribute!
 
 
 🙌 Credits
-Built by Thomas J James, leveraging:
+    Built by Thomas J James, leveraging:
 
-CrewAI
+    CrewAI
 
-LangChain
+    LangChain
 
-Groq API
+    Groq API
