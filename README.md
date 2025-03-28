@@ -43,22 +43,22 @@ ai-agent-benchmarking/
     ## 🚀 How to Run
 
 1. Clone this repo:
-   ```bash
-   git clone https://github.com/your-username/ai-agent-benchmarking.git
-   cd ai-agent-benchmarking
+       ```bash
+       git clone https://github.com/your-username/ai-agent-benchmarking.git
+       cd ai-agent-benchmarking
 
 2. Create and activate a virtual environment:
-   python3 -m venv .venv
-   source .venv/bin/activate  # or `.venv\\Scripts\\activate` on Windows
+       python3 -m venv .venv
+       source .venv/bin/activate  # or `.venv\\Scripts\\activate` on Windows
 
 3. Install dependencies:
-   pip install -r requirements.txt
+       pip install -r requirements.txt
 
 4. Set your LLM API key in a .env file:
-   GROQ_API_KEY=your_groq_api_key_here
+       GROQ_API_KEY=your_groq_api_key_here
 
 5. Run the benchmark:
-   python run_benchmark.py
+       python run_benchmark.py
 
 
 
