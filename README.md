@@ -21,23 +21,23 @@ This project benchmarks the inference performance and response quality of AI age
 
 ## 📁 Project Structure
 
-ai-agent-benchmarking/ 
-    ├── advisor_agents.py 
-    ├── advisor_tasks.py 
-    ├── energy_orchestrator.py 
-    ├── musical_orchestrator.py 
-    ├── dancing_orchestrator.py 
-    ├── benchmark_runner.py 
-    ├── run_benchmark.py 
-    ├── rating_simulator.py 
-    ├── metrics_visualizer.py 
-    ├── utils.py 
-    ├── data/ 
-        │ └── questions/ 
-            │ └── questions.jsonl 
-    └── output/ 
-        └── metrics/ 
-            └── energy_benchmark_results.jsonl
+    ai-agent-benchmarking/ 
+        ├── advisor_agents.py 
+        ├── advisor_tasks.py 
+        ├── energy_orchestrator.py 
+        ├── musical_orchestrator.py 
+        ├── dancing_orchestrator.py 
+        ├── benchmark_runner.py 
+        ├── run_benchmark.py 
+        ├── rating_simulator.py 
+        ├── metrics_visualizer.py 
+        ├── utils.py 
+        ├── data/ 
+            │ └── questions/ 
+                │ └── questions.jsonl 
+        └── output/ 
+            └── metrics/ 
+                └── energy_benchmark_results.jsonl
 
 
 ## 🚀 How to Run
